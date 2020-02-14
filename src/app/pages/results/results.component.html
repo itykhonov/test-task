@@ -1,0 +1,8 @@
+<div class="holder" *ngIf="(pagesData | async) as pages">
+    Submitted:
+    <ul>
+        <dt>Name - {{pages.name}}</dt>
+        <dt>Email - {{pages.email}}</dt>
+        <dt>Phone - {{pages.phone}}</dt>
+    </ul>
+</div>

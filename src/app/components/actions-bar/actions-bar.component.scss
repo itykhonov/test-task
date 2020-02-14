@@ -1,0 +1,32 @@
+.actions-bar {
+    display: flex;
+    margin: 0 0 30px;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 10px 0 0;
+    border-top: 3px dashed #000;
+    li {
+        width: 20%;
+        margin: 0 20px;
+    }
+    button {
+        border: 1px solid #000;
+        background: #fff;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        outline: none;
+        color: #000;
+        font-size: 15px;
+        font-weight: bold;
+        &.submit {
+            background: #e4a1a1;
+            &:disabled {
+                cursor: default;
+                background: #f00707;
+            }
+        }
+    }
+}

@@ -1,0 +1,2 @@
+<label for="{{stepType}}">{{stepIndex}}. <span class="step-type">{{stepType}}</span></label>
+<input [placeholder]="placeHolder" id="{{stepType}}" type="text" [ngModel]="stepValue" (input)="inputHandler($event.target.value)">

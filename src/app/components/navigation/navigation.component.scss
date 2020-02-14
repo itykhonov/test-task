@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 30px;
+    li {
+        width: 20%;
+    }
+    button {
+        border: 1px solid #a6e1fb;
+        background: #a6e1fb;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        outline: none;
+        &.active {
+            background: #fff;
+            border: 1px solid #000;
+        }
+    }
+}

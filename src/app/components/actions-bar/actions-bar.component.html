@@ -1,0 +1,8 @@
+<ul class="actions-bar">
+    <li>
+        <button class="submit" [disabled]="!(isPagesValid | async)" routerLink="results">Submit</button>
+    </li>
+    <li>
+        <button (click)="clearAllFields()">Cancel</button>
+    </li>
+</ul>

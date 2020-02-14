@@ -1,0 +1,26 @@
+:host {
+    display: block;
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #000;
+    margin: 0 0 30px;
+    label {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 0 15px;
+        .step-type {
+            text-transform: capitalize;
+        }
+    }
+    input {
+        display: block;
+        width: 100%;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 5px;
+        height: 30px;
+        background: #fff;
+        border: 1px solid #000;
+        margin: 0 0 10px;
+    }
+}
